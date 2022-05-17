@@ -125,10 +125,5 @@ const config = {
     }),
 };
 
-//module.exports = config;
+module.exports = config;
 //
-module.exports = {
-	url: 'https://documents-aroc.onrender.com' 
-	baseurl: '/'
-}
-}
