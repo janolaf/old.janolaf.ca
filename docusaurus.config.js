@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   //organizationName: 'janolaf', // Usually your GitHub org/user name.
-  //projectName: 'documents-aroc.onrender.com', // Usually your repo name.
+  projectName: 'docs.janolaf.ca', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -125,4 +125,10 @@ const config = {
     }),
 };
 
-module.exports = config;
+//module.exports = config;
+//
+module.exports = {
+	url: 'https://documents-aroc.onrender.com' 
+	baseurl: '/'
+}
+}
