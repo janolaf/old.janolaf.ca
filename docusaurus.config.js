@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Selfhost Documetation',
   tagline: 'My dabblings and Scribbles',
-  url: 'https://documents-aroc.onrender.com',
+  url: 'https://janolaf.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/janolaf/documents-aroc.onrender.com',
+            'https://github.com/janolaf/docs.janolaf.ca',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/janolaf/documents-aroc.onrender.com',
+            'https://github.com/janolaf/docs.janolaf.ca',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Jan-Olaf Selfhost Documentation',
+        title: 'My Home Server Documentation',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
