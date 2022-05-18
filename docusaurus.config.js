@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Selfhost Documetation',
+  title: 'HomeServer Documetation',
   tagline: 'My dabblings and Scribbles',
   url: 'https://janolaf.pages.dev',
   baseUrl: '/',
@@ -36,15 +36,11 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/janolaf/docs.janolaf.ca',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/janolaf/docs.janolaf.ca',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +53,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Home Server Documentation',
+        title: 'HomeServer Doc',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -81,33 +77,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Gitlab',
+                to: 'https://gitlab.com/janolaf',
               },
               {
                 label: 'GitHub',
